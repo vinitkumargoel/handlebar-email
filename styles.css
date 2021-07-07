@@ -1,0 +1,172 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    --dark-green: #40a279;
+    --green: #8fcdbd;
+}
+
+.main-container {
+    width: 600px;
+    margin: auto;
+    min-height: 600px;
+}
+
+.top-container {
+    padding: 10px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-gray-white-solid-stone-background-image_262445.jpg");
+}
+
+.top-container .top-link {
+    color: var(--dark-green);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.top-container .icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.top-container .icon {
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.top-container .main-logo-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.top-container .main-logo {
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.body-container {
+    padding: 10px 30px;
+    background-color: var(--green);
+}
+
+.body-container .order-details-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.body-container .order-details-container .summery-container {
+    width: 50%;
+    text-align: left;
+}
+
+.body-container .order-details-container .delivery-container {
+    width: 50%;
+    text-align: left;
+}
+
+.white-container {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.white-container .top-image-container {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.white-container .top-image {
+    width: 350px;
+    object-fit: cover;
+}
+
+.white-container .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.white-container .items-container {
+    display: flex;
+    font-size: 18px;
+    margin: 4px 20px;
+}
+
+.white-container .items-container .quantity {
+    width: 20%;
+    text-align: left;
+}
+
+.white-container .items-container .name {
+    width: 50%;
+    text-align: left;
+}
+
+.white-container .items-container .price {
+    width: 30%;
+    text-align: right;
+}
+
+.white-container .final-total-container {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.white-container .final-total-container > p {
+    margin: 0 0 7px;
+    font-size: 18px;
+}
+
+.footer-container {
+    padding: 10px;
+    background-color: var(--green);
+}
+
+.large-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    line-height: 200%;
+}
+
+.light-text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    line-height: 160%;
+}
+
+.footer-container .footer-img-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
+
+.footer-container .footer-img {
+    width: 350px;
+    object-fit: cover;
+}
+
+
+.align-left {
+    text-align: left !important;
+}
+
+.bold {
+    font-weight: 400 !important;
+}

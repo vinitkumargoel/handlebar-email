@@ -1,0 +1,12 @@
+{
+  "name": "handlebar-email",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:vinitkumargoel/handlebar-email.git",
+  "author": "Vinit Kumar",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
